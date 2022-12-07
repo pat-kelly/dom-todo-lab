@@ -9,7 +9,10 @@ inputEl.value = "";
 
 sBtn.addEventListener('click', evt =>{
   const li = document.createElement('li');
-  li.textContent = inputEl.value;
-  inputEl.value = "";
-  ulEl.appendChild(li);
+  if(!inputEl.value) alert("Please enter something in the input field.");
+  else {
+    li.textContent = inputEl.value;
+    inputEl.value = "";
+    ulEl.appendChild(li);
+  }
 })
