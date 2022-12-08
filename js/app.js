@@ -19,7 +19,7 @@ sBtn.addEventListener('click', evt =>{
 })
 
 rBtn.addEventListener('click', evt =>{
-  console.log(ulEl);
+  // console.log(ulEl);
   while(ulEl.hasChildNodes()){
     ulEl.removeChild(ulEl.childNodes[0])
   }

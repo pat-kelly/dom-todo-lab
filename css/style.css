@@ -1,6 +1,13 @@
-body{
-  margin: 0;
+html, body{
+  display: flex;
+  justify-content: center;
+  height: 100%; 
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  vertical-align: middle;
-  
 }
